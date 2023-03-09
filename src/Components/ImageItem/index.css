@@ -1,0 +1,16 @@
+.image-btn {
+  background-color: transparent;
+  border-width: 0px;
+}
+
+@media (max-width: 767px) {
+  .thumb-image {
+    height: 100px;
+  }
+}
+
+@media (min-width: 768px) {
+  .thumb-image {
+    height: 150px;
+  }
+}

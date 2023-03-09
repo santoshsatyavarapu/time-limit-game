@@ -1,0 +1,110 @@
+.container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 95vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 1;
+  padding-top: 30px;
+  padding: 20px;
+}
+.tabs-container {
+  list-style: none;
+  padding-left: 0px;
+  display: flex;
+}
+
+@media (max-width: 767px) {
+  .game-image {
+    width: 300px;
+  }
+
+  .images-container {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 500px;
+  }
+  .end-game {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+    background-size: cover;
+    border-radius: 20px;
+    height: 500px;
+    width: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+  .trophy {
+    width: 200px;
+    margin-top: 30px;
+  }
+  .score-heading {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  .game-image {
+    height: 300px;
+  }
+
+  .images-container {
+    list-style: none;
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  .end-game {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+    background-size: cover;
+    border-radius: 20px;
+    height: 600px;
+    width: 600px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+  .trophy {
+    width: 300px;
+    margin-top: 30px;
+  }
+  .score-heading {
+    font-size: 30px;
+    margin: 2px;
+  }
+}
+.in-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.play-again {
+  background-color: #cf60c8;
+  color: white;
+  border-radius: 5px;
+  border-width: 0px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,12 @@
+.tab-item-container {
+  margin-right: 20px;
+}
+.tab-btn {
+  background-color: transparent;
+  border-width: 0px;
+  color: white;
+  font-size: 20px;
+}
+.active-tab-btn {
+  color: #fec653;
+}
